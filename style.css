@@ -1,0 +1,582 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;
+    color: #000000;
+}
+
+body {
+    background-color: #e3e3e3;
+    overflow-x: hidden
+}
+
+
+
+
+footer {
+    background-color: #181818;
+    width: 100%;
+    height: 250px;
+
+
+}
+
+a {
+    text-decoration: none;
+
+}
+
+a:hover {
+    color: #8a8a8a;
+
+
+}
+
+ul>li {
+    display: inline-block;
+
+
+}
+
+li {
+    margin-left: 20px;
+
+
+}
+
+.container {
+    width: 100%;
+    height: 50%;
+    padding-top: 1%;
+
+}
+
+.container_main1 {
+
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    padding-top: 30px;
+
+
+}
+
+.a_spisok {
+    display: inline-block;
+    color: #000000;
+    padding-left: 3%;
+    list-style-type: none;
+
+
+}
+
+
+.predloj>li {
+    margin-left: 25px;
+    padding-left: 3%;
+
+
+}
+
+.predloj>li>a {
+    font-size: 20px;
+}
+
+
+
+
+
+.hr_header {
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+
+}
+
+
+.hr_header {
+    color: #FFFFFF;
+    width: 100%;
+}
+
+.logo {
+    padding-left: 5%;
+    padding-right: 5%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+
+
+}
+
+.logo_shop {
+    padding-left: 4%;
+    padding-right: 5%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+
+
+}
+
+.logo_main3 {
+
+    width: 100px;
+
+}
+
+.logo_img_main {
+
+    margin-left: 10px;
+
+
+}
+
+.logo_main-shop {
+    margin-left: 300px;
+
+
+
+}
+
+.reg_button_main {
+    margin-right: 500px;
+
+
+
+}
+
+.logo_main1 {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.logo_main1,
+.logo_main2 {
+    width: 50%;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo_main3 {
+
+    width: 35%;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+
+}
+
+
+
+.logo_main2 {
+    padding-left: 57%;
+
+
+}
+
+
+
+
+.logo * {
+    margin-left: 10px;
+}
+
+.logo_img {
+    width: 80px;
+    height: 100%;
+}
+
+
+.reg_button , .reg_button2, .plitka_btn{
+    color: #FFFFFF;
+    background-color: #FF6900;
+    border: 0px;
+    border-radius: 10px;
+    width: 90px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+.plitka_main2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 25px;
+
+
+}
+
+.plitka_main3{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.plitka_main4 {
+
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+
+.plitka_btn {
+
+    color: #D15700;
+    background-color: #ede4e0;
+
+
+}
+
+
+.plitka1-1, .plitka2-1, .plitka3-1, .plitka4-1
+{
+    height: 468px;
+    width: 293px;
+
+}
+
+.plitka_main1 > p {
+    margin-top: 10px;
+    color: #5C6370;
+    font-weight: 400;
+
+
+}
+
+
+.reg_button2 {
+    width: 250px;
+    height: 75px;
+    font-size: 30px;
+    margin-top: 20px;
+
+}
+
+.reg_buttonreg,.reg_buttonreg3 {
+    width: 150px;
+    height: 35px;
+    color: #FFFFFF;
+    background-color: #FF6900;
+    border: 0px;
+    border-radius: 10px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+
+
+}
+
+
+.reg_buttonreg3 {
+    margin-left: 300px;
+
+
+}
+
+.reg_btn {
+  display: flex;
+
+}
+
+
+.reg_button:hover {
+
+    background-color: #b14a00;
+
+
+}
+
+
+.main_cont1 {
+    width: 50%;
+    padding-left: 35px;
+}
+
+.main_cont2 {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 126px;
+}
+
+.container_main2 {
+    width: 1440px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 40px;
+    padding-right: 40px;
+
+}
+
+.title_text {
+    width: 1440px;
+    height: 50px;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 80px;
+
+}
+
+.container_main3 {
+    width: 1440px;
+    height: 570px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+.container_footer1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 30px;
+
+
+}
+
+.info > li{
+    display: block;
+    color: #FFFFFF;
+}
+
+.info > li > a {
+    color: #8b8b8b;
+}
+
+.info > li > a:hover {
+    color: #585858;
+}
+
+.info > li > p {
+
+    color: #b4b2b2;
+
+
+}
+
+
+
+.footer_img {
+    margin-left: 75px;
+    margin-right: 75px;
+
+
+}
+
+.textarea_main {
+
+    width: 100%;
+    height: auto;
+    padding: 20px 20px 20px 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+
+
+}
+
+.pizza_block,.pizza_block2, .adreess {
+    margin-top: 10px;
+    width: 1000px;
+    height: 75px;
+    background-color: #a5a5a5;
+    color: #000000;
+    border: 0px solid black;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+
+}
+
+.pizza_block2 {
+    width: 700px;
+
+
+}
+
+.first_pizza {
+    width: 800px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #FF6900;
+    border: 0px solid black;
+    border-radius: 20px;
+    padding: 20 20 20 20px;
+
+
+}
+
+.textarea-p {
+    font-size: 25px;
+    font-weight: 600;
+
+
+}
+
+.block2_pizza, .block3_pizza {
+    margin-top: 20px;
+
+
+
+}
+
+.adreess {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+/* для элемента input c type="radio" */
+.custom-radio>input {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+  }
+  
+  /* для элемента label связанного с .custom-radio */
+  .custom-radio>span {
+    display: inline-flex;
+    align-items: center;
+    user-select: none;
+  }
+  
+  /* создание в label псевдоэлемента  before со следующими стилями */
+  .custom-radio>span::before {
+    content: '';
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    flex-shrink: 0;
+    flex-grow: 0;
+    border: 1px solid #030303;
+    border-radius: 50%;
+    margin-right: 0.5em;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 50% 50%;
+  }
+  
+  /* стили при наведении курсора на радио */
+  .custom-radio>input:not(:disabled):not(:checked)+span:hover::before {
+    border-color: #b3d7ff;
+  }
+  
+  /* стили для активной радиокнопки (при нажатии на неё) */
+  .custom-radio>input:not(:disabled):active+span::before {
+    background-color: #b3d7ff;
+    border-color: #b3d7ff;
+  }
+  
+  /* стили для радиокнопки, находящейся в фокусе */
+  .custom-radio>input:focus+span::before {
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  }
+  
+  /* стили для радиокнопки, находящейся в фокусе и не находящейся в состоянии checked */
+  .custom-radio>input:focus:not(:checked)+span::before {
+    border-color: #80bdff;
+  }
+  
+  /* стили для радиокнопки, находящейся в состоянии checked */
+  .custom-radio>input:checked+span::before {
+    border-color: #0b76ef;
+    background-color: #0b76ef;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23fff'/%3e%3c/svg%3e");
+  }
+  
+  /* стили для радиокнопки, находящейся в состоянии disabled */
+  .custom-radio>input:disabled+span::before {
+    background-color: #e9ecef;
+  }
+
+
+.h1_heaeder {
+
+    margin-left: 150px;
+
+
+}
+
+
+.fill_kab {
+
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 750px;
+    margin-top: 3%;
+    display: block;
+
+
+
+}
+
+.block_kab1, .block_kab2, .block_kab3, .block_kab4 {
+    width: 96.8%;
+    height: 125px;
+    background-color: white;
+    margin-top: 15px;
+    border-radius: 20px;
+    border: 0px solid black;
+    padding: 10px 20px 20px 20px;
+
+}
+
+.kab_text {
+
+    width: 99%;
+    height: 80px;
+    border: 0px solid black;
+    border-radius: 20px;
+    background-color: #D9D9D9;
+    margin-top: 10px;
+    font-size: 30px;
+    font-weight: 700;
+    padding-left: 20px;
+
+
+
+}
+
